@@ -15,6 +15,12 @@
             "cwd": "theme_bloc_flutter",
             "request": "launch",
             "type": "dart"
+        },
+        {
+            "name": "theme_cubit_flutter",
+            "cwd": "theme_cubit_flutter",
+            "request": "launch",
+            "type": "dart"
         }
     ]
 }
