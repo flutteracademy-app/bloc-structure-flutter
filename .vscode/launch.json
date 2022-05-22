@@ -11,18 +11,10 @@
             "type": "dart"
         },
         {
-            "name": "counter_bloc_flutter (profile mode)",
-            "cwd": "counter_bloc_flutter",
+            "name": "theme_bloc_flutter",
+            "cwd": "theme_bloc_flutter",
             "request": "launch",
-            "type": "dart",
-            "flutterMode": "profile"
-        },
-        {
-            "name": "counter_bloc_flutter (release mode)",
-            "cwd": "counter_bloc_flutter",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "release"
+            "type": "dart"
         }
     ]
 }
