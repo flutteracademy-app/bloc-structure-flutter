@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todo_app_cubit_streamsubscription/cubits/todo_filter/todo_filter_cubit.dart';
-import 'package:todo_app_cubit_streamsubscription/cubits/todo_search/todo_search_cubit.dart';
-import 'package:todo_app_cubit_streamsubscription/models/todo_model.dart';
+import 'package:todo_app_cubit_bloclistener/cubits/todo_filter/todo_filter_cubit.dart';
+import 'package:todo_app_cubit_bloclistener/cubits/todo_search/todo_search_cubit.dart';
+import 'package:todo_app_cubit_bloclistener/models/todo_model.dart';
 
 class SearchFilterTodoWidget extends StatelessWidget {
   const SearchFilterTodoWidget({Key? key}) : super(key: key);

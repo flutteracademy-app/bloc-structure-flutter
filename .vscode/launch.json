@@ -27,6 +27,12 @@
             "cwd": "todo_app_cubit_streamsubscription",
             "request": "launch",
             "type": "dart"
+        },
+        {
+            "name": "todo_app_cubit_bloclistener",
+            "cwd": "todo_app_cubit_bloclistener",
+            "request": "launch",
+            "type": "dart"
         }
     ]
 }
