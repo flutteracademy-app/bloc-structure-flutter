@@ -29,7 +29,7 @@ class SearchFilterTodoWidget extends StatelessWidget {
             }
           },
         ),
-        SizedBox(
+        const SizedBox(
           height: 10,
         ),
         Row(
