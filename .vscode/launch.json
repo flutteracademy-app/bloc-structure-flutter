@@ -39,6 +39,12 @@
             "cwd": "todo_app_bloc_streamsubscription",
             "request": "launch",
             "type": "dart"
+        },
+        {
+            "name": "todo_app_bloc_bloclistener",
+            "cwd": "todo_app_bloc_bloclistener",
+            "request": "launch",
+            "type": "dart"
         }
     ]
 }
