@@ -1,0 +1,15 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
+part of 'active_todo_count_bloc.dart';
+
+abstract class ActiveTodoCountEvent {}
+
+class CalculateActiveTodoCountEvent extends ActiveTodoCountEvent {
+  final int activeTodoCount;
+  CalculateActiveTodoCountEvent({
+    required this.activeTodoCount,
+  });
+
+  @override
+  String toString() =>
+      'CalculateAvtiveTodoCountEvent(activeTodoCount: $activeTodoCount)';
+}
