@@ -5,7 +5,7 @@ enum AppTheme {
   dark,
 }
 
-class ThemeState extends Equatable {
+class ThemeState {
   final AppTheme appTheme;
 
   const ThemeState({
@@ -15,10 +15,6 @@ class ThemeState extends Equatable {
   factory ThemeState.initial() {
     return const ThemeState();
   }
-
-  @override
-  // TODO: implement props
-  List<Object?> get props => [appTheme];
 
   @override
   String toString() => 'ThemeState(appTheme: $appTheme)';

@@ -17,8 +17,6 @@ class ActiveTodoCountCubit extends Cubit<ActiveTodoCountState> {
         )) {
     todoListSubscription =
         todoListCubit.stream.listen((TodoListState todoListState) {
-      print('todoListState: $todoListState');
-
       final int currentActiveTodoCount = todoListState.todos
           .where((element) => element.completed == false)
           .toList()
